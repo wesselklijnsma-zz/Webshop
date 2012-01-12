@@ -3,7 +3,8 @@ body {
 }
 
 h2 {
-  color: #0B610B;
+ 
+ color: #0B610B;
 }
 
 table {
@@ -12,29 +13,29 @@ table {
 
  #wrapper {
  position: fixed;
- left: 25%;
+ left: 15%;
  margin: 0 auto;
- width: 618px;
+ width: 760px;
  height: 100%;
 }
 	
 #heading {
  position: absolute;
- left: 150px;
+ left: 160px;
  top: 10px;
  text-align: center;
  margin-left: 0 auto;
  margin-right: 0 auto;
  padding: 0;
- width: 468px;
+ width: 600px;
  background: green;
  color: white;
- height: 60px;
+ height: 120px;
  }
 
  #navigation {
  position: absolute;
- top: 70px;
+ top: 130px;
  margin: 0 auto;
  width: 149px;
  height: 100%;
@@ -44,10 +45,10 @@ table {
 
 #mid {
  position: absolute;
- top: 70px;
+ top: 130px;
  margin: 0 auto;
- left: 150px;
- width: 468px;
+ left: 160px;
+ width: 600px;
  height: 100%;
  background: white;
  float: left;
