@@ -1,0 +1,54 @@
+body {
+ background: #fcf6e6;
+}
+
+h2 {
+  color: #0B610B;
+}
+
+table {
+ border: solid 0px;
+}
+
+ #wrapper {
+ position: fixed;
+ left: 25%;
+ margin: 0 auto;
+ width: 618px;
+ height: 100%;
+}
+	
+#heading {
+ position: absolute;
+ left: 150px;
+ top: 10px;
+ text-align: center;
+ margin-left: 0 auto;
+ margin-right: 0 auto;
+ padding: 0;
+ width: 468px;
+ background: green;
+ color: white;
+ height: 60px;
+ }
+
+ #navigation {
+ position: absolute;
+ top: 70px;
+ margin: 0 auto;
+ width: 149px;
+ height: 100%;
+ background: white;
+ float: left;			      
+ }
+
+#mid {
+ position: absolute;
+ top: 70px;
+ margin: 0 auto;
+ left: 150px;
+ width: 468px;
+ height: 100%;
+ background: white;
+ float: left;
+}
