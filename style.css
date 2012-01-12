@@ -54,7 +54,42 @@ table {
  float: left;
 }
 
-.content
+h1
 {
-background-color:#f8f8f8;
+	font-family: Verdana;
+	color: #FCF6E6;
+	font-size: 50px;
+}
+
+a:link
+{
+	font-family: Verdana;
+	font-size: 10px;
+}
+
+a:hover
+{
+font-size: 15px;
+font-family: Verdana,
+}
+
+#banner
+{
+	background: #0B610B;
+	width: 600px;
+	height: 120px;
+}
+
+#Left
+{
+	width: 80%;
+	float: left;
+}
+
+#Right
+{
+	width: 20%;
+	float: left;
+	background: #FCF6E6;
+	height: 100%;
 }
