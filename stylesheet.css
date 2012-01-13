@@ -1,0 +1,115 @@
+body {
+ background: #fcf6e6;
+}
+
+h2 {
+ text-indent:20px; 
+ color: #0B610B;
+}
+a:link {
+color:#f39
+}
+a:visited {
+color:#f39;
+}
+a:hover {
+color:#f39;
+}
+a:active {
+color:#f39;
+}
+
+table {
+ border: solid 0px;
+}
+
+ #wrapper {
+ position: fixed;
+ left: 15%;
+ margin: 0 auto;
+ width: 760px;
+ height: 100%;
+}
+	
+#heading {
+ position: absolute;
+ left: 160px;
+ top: 10px;
+ text-align: center;
+ margin-left: 0 auto;
+ margin-right: 0 auto;
+ padding: 0;
+ width: 600px;
+ background: green;
+ color: white;
+ height: 120px;
+ }
+
+ #navigation {
+ position: absolute;
+ top: 130px;
+ margin: 0 auto;
+ width: 149px;
+ height: 100%;
+ background: white;
+ float: left;	
+ -webkit-box-shadow: 0 .7em 2em -10px #000;
+-moz-box-shadow: 0 .7em 2em -10px #000;
+-o-box-shadow: 0 .7em 2em -10px #000;
+box-shadow: 0 .7em 2em -10px #000; 
+ }
+
+#mid {
+ position: absolute;
+ top: 130px;
+ margin: 0 auto;
+ left: 160px;
+ width: 600px;
+ height: 100%;
+ background: white;
+ float: left;
+ -webkit-box-shadow: 0 .7em 2em -10px #000;
+-moz-box-shadow: 0 .7em 2em -10px #000;
+-o-box-shadow: 0 .7em 2em -10px #000;
+box-shadow: 0 .7em 2em -10px #000;
+}
+
+h1
+{
+	font-family: Verdana;
+	color: #FCF6E6;
+	font-size: 50px;
+}
+
+a:link
+{
+	font-family: Verdana;
+	font-size: 10px;
+}
+
+a:hover
+{
+font-size: 15px;
+font-family: Verdana,
+}
+
+#banner
+{
+	background: #0B610B;
+	width: 600px;
+	height: 120px;
+}
+
+#Left
+{
+	width: 80%;
+	float: left;
+}
+
+#Right
+{
+	width: 20%;
+	float: left;
+	background: #FCF6E6;
+	height: 100%;
+}
