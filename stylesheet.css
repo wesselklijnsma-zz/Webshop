@@ -1,22 +1,23 @@
-body {
- background: #fcf6e6;
+body
+{
+	background: #FCF6E6;
 }
 
 h2 {
  text-indent:20px; 
- color: #0B610B;
+ color: #B4045F;
 }
 a:link {
-color: red
+color: #FF0080;
 }
 a:visited {
-color: blue;
+color: #FF0080;
 }
 a:hover {
-color: green;
+color: #FF0080;
 }
 a:active {
-color: yellow;
+color: black;
 }
 
 table {
@@ -40,9 +41,14 @@ table {
  margin-right: 0 auto;
  padding: 0;
  width: 600px;
- background: green;
  color: white;
  height: 120px;
+ border-radius: 30px;
+ -moz-border-radius: 30px;
+ -webkit-box-shadow: 0 .7em 2em -10px #000;
+-moz-box-shadow: 0 .7em 2em -10px #000;
+-o-box-shadow: 0 .7em 2em -10px #000;
+box-shadow: 0 .7em 2em -10px #000;
  }
 
  #navigation {
@@ -53,6 +59,8 @@ table {
  height: 100%;
  background: #F8F8F8;
  float: left; 
+ border-radius: 30px;
+ -moz-border-radius: 30px;
  -webkit-box-shadow: 0 .7em 2em -10px #000;
 -moz-box-shadow: 0 .7em 2em -10px #000;
 -o-box-shadow: 0 .7em 2em -10px #000;
@@ -73,6 +81,8 @@ box-shadow: 0 .7em 2em -10px #000;
  height: 100%;
  background: #F8F8F8;
  float: left;
+ border-radius: 20px;
+ -moz-border-radius: 20px;
  -webkit-box-shadow: 0 .7em 2em -10px #000;
 -moz-box-shadow: 0 .7em 2em -10px #000;
 -o-box-shadow: 0 .7em 2em -10px #000;
@@ -100,9 +110,11 @@ font-family: Verdana,
 
 #banner
 {
-	background: #0B610B;
+	background: #088A08;
 	width: 600px;
 	height: 120px;
+	border-radius: 30px;
+    -moz-border-radius: 30px;
 }
 
 #Left
@@ -115,6 +127,20 @@ font-family: Verdana,
 {
 	width: 20%;
 	float: left;
-	background: #FCF6E6;
+	background: #FFBF00;
 	height: 100%;
+	border-radius: 30px;
+    -moz-border-radius: 30px;
+}
+
+
+#logo
+{
+ position: absolute;
+ top: 3px;
+ margin: 0 auto;
+ left: 200px;
+ width: 600px;
+ height: 100%;
+ float: left;
 }
