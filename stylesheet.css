@@ -7,16 +7,16 @@ h2 {
  color: #0B610B;
 }
 a:link {
-color:#f39
+color: red
 }
 a:visited {
-color:#f39;
+color: blue;
 }
 a:hover {
-color:#f39;
+color: green;
 }
 a:active {
-color:#f39;
+color: yellow;
 }
 
 table {
@@ -51,14 +51,19 @@ table {
  margin: 0 auto;
  width: 149px;
  height: 100%;
- background: white;
- float: left;	
+ background: #F8F8F8;
+ float: left; 
  -webkit-box-shadow: 0 .7em 2em -10px #000;
 -moz-box-shadow: 0 .7em 2em -10px #000;
 -o-box-shadow: 0 .7em 2em -10px #000;
 box-shadow: 0 .7em 2em -10px #000; 
  }
 
+ #wwlink
+ {
+ text-align: center;
+ }
+ 
 #mid {
  position: absolute;
  top: 130px;
@@ -66,7 +71,7 @@ box-shadow: 0 .7em 2em -10px #000;
  left: 160px;
  width: 600px;
  height: 100%;
- background: white;
+ background: #F8F8F8;
  float: left;
  -webkit-box-shadow: 0 .7em 2em -10px #000;
 -moz-box-shadow: 0 .7em 2em -10px #000;
