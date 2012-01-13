@@ -19,28 +19,33 @@
     </div>
 	<div id="navigation">
 	</div>
+	
 	<div id="mid">
-	    <h2>Login</h2>
+	    <h2>Factuur</h2>
 	    <div class="content">
-	    <form>
-		<table cellpadding="7">
-		    <tr>
-			<td>Gebruikersnaam:</td>
-			<td><input type="text" name="user" /><br /></td>
-		    </tr>
-		    <tr>
-			<td>Wachtwoord:</td>
-			<td><input type="password" name="passwd" /><br /></td>
-		    </tr>
-		    <tr>
-			<td>
-			    <a href="registreren.html"><button name="registreren">Registreren</button></a>
-			</td>
-		        <td><input type="submit" value="Inloggen" /></td>
-		    </tr>
-		</table>
-	    </form>
+		<form>
+		    <table cellspacing="10">
+			<tr>
+			    <th>Item</th>
+			    <th>Prijs</th>
+			<tr>
+			<tr>
+			    <td>De Aanslag, Harry Mulisch</td>
+			    <td>&#8364 15,99</td>
+			</tr>
+			<tr>
+			    <td><em>Totaal:</em></td>
+			    <td><em>&#8364 15,99</em></td>
+			</tr>	  
+		    </table>
+		</form>
+		<h3> Verzendinformatie:</h3>
+		<p id="adres">Naam Achternaam<br />
+		Straatnaam Huisnr<br />
+		Postcode<br /></p>
+		<button id="factuurb" name="print">Print</button>
 	    </div>
+
 	</div>
     </div>
     </body>
