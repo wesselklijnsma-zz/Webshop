@@ -113,3 +113,14 @@ font-family: Verdana,
 	background: #FCF6E6;
 	height: 100%;
 }
+
+#logo
+{
+ position: absolute;
+ top: 3px;
+ margin: 0 auto;
+ left: 200px;
+ width: 600px;
+ height: 100%;
+ float: left;
+}
