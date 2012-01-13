@@ -141,3 +141,26 @@ font-family: Verdana,
  margin: 0 auto;
  left: 10px;
 }
+
+#adres
+{
+ position:absolute;
+ left: 27px;
+}
+
+h3
+{
+ text-indent:22px;
+}
+
+#factuurb
+{
+ position:relative;
+ left: 270px;
+}
+
+#sidebar
+{
+ position:absolute;
+ left:8px;
+}
