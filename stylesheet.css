@@ -137,10 +137,7 @@ font-family: Verdana,
 #logo
 {
  position: absolute;
- top: 3px;
+ top: 0px;
  margin: 0 auto;
- left: 200px;
- width: 600px;
- height: 100%;
- float: left;
+ left: 10px;
 }
