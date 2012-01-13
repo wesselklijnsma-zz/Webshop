@@ -43,6 +43,8 @@ table {
  background: green;
  color: white;
  height: 120px;
+ border-radius: 30px;
+  -moz-border-radius: 30px;
  }
 
  #navigation {
@@ -56,7 +58,9 @@ table {
  -webkit-box-shadow: 0 .7em 2em -10px #000;
 -moz-box-shadow: 0 .7em 2em -10px #000;
 -o-box-shadow: 0 .7em 2em -10px #000;
-box-shadow: 0 .7em 2em -10px #000; 
+box-shadow: 0 .7em 2em -10px #000;
+border-radius: 30px;
+ -moz-border-radius: 30px;
  }
 
 #mid {
@@ -72,6 +76,8 @@ box-shadow: 0 .7em 2em -10px #000;
 -moz-box-shadow: 0 .7em 2em -10px #000;
 -o-box-shadow: 0 .7em 2em -10px #000;
 box-shadow: 0 .7em 2em -10px #000;
+border-radius: 20px;
+ -moz-border-radius: 20px;
 }
 
 h1
@@ -98,6 +104,8 @@ font-family: Verdana,
 	background: #0B610B;
 	width: 600px;
 	height: 120px;
+	border-radius: 20px;
+	        -moz-border-radius: 20px;
 }
 
 #Left
@@ -112,4 +120,6 @@ font-family: Verdana,
 	float: left;
 	background: #FCF6E6;
 	height: 100%;
+	border-radius: 20px;
+	        -moz-border-radius: 20px;
 }

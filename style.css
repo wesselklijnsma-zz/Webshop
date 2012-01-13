@@ -7,6 +7,19 @@ h2 {
  color: #0B610B;
 }
 
+a:link {
+color:#f39
+}
+a:visited {
+color:#f39;
+}
+a:hover {
+color:#f39;
+}
+a:active {
+color:#f39;
+}
+
 table {
  border: solid 0px;
 }
@@ -31,6 +44,8 @@ table {
  background: green;
  color: white;
  height: 120px;
+ border-radius: 30px;
+ -moz-border-radius: 30px;
  }
 
  #navigation {
@@ -40,7 +55,9 @@ table {
  width: 149px;
  height: 100%;
  background: white;
- float: left;			      
+ float: left;		
+ border-radius: 30px;
+ -moz-border-radius: 30px;
  }
 
 #mid {
@@ -52,6 +69,8 @@ table {
  height: 100%;
  background: white;
  float: left;
+ border-radius: 20px;
+ -moz-border-radius: 20px;
 }
 
 h1
@@ -78,6 +97,8 @@ font-family: Verdana,
 	background: #0B610B;
 	width: 600px;
 	height: 120px;
+	border-radius: 20px;
+	-moz-border-radius: 20px;
 }
 
 #Left
@@ -90,6 +111,18 @@ font-family: Verdana,
 {
 	width: 20%;
 	float: left;
-	background: #FCF6E6;
+	background: #green;
 	height: 100%;
+	border-radius: 20px;
+	-moz-border-radius: 20px;
+}
+
+.content
+{
+background-color:#F8F8F8;
+}
+
+#wwlink
+{
+text-align:center;
 }
