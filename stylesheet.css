@@ -5,19 +5,39 @@ body
 
 h2 {
  text-indent:20px; 
- color: #B4045F;
+ color: #127687;
+ font-family: 'Lato';
+  font-style: normal;
+  font-size: 30px;
+  font-weight: 400;
+  src: local('Lato Regular'), local('Lato-Regular'), url('http://themes.googleusercontent.com/static/fonts/lato/v5/qIIYRU-oROkIk8vfvxw6QvesZW2xOQ-xsNqO47m55DA.woff') format('woff');
 }
+
+td
+{
+text-indent:20px; 
+ color: black;
+ font-family: 'Lato';
+  font-style: normal;
+  font-size: 15px;
+  font-weight: 400;
+  src: local('Lato Regular'), local('Lato-Regular'), url('http://themes.googleusercontent.com/static/fonts/lato/v5/qIIYRU-oROkIk8vfvxw6QvesZW2xOQ-xsNqO47m55DA.woff') format('woff');
+}
+
 a:link {
-color: #FF0080;
+color: #FCF6E6;
+font-family: Verdana;
+font-size: 10px;
 }
 a:visited {
-color: #FF0080;
+color: #FCF6E6;
 }
 a:hover {
-color: #FF0080;
+color: #FCF6E6;
+font-size: 15px;
 }
 a:active {
-color: black;
+color: #FCF6E6;
 }
 
 table {
@@ -96,21 +116,10 @@ h1
 	font-size: 50px;
 }
 
-a:link
-{
-	font-family: Verdana;
-	font-size: 10px;
-}
-
-a:hover
-{
-font-size: 15px;
-font-family: Verdana,
-}
 
 #banner
 {
-	background: #088A08;
+	background: #127687;
 	width: 600px;
 	height: 120px;
 	border-radius: 30px;
@@ -127,7 +136,7 @@ font-family: Verdana,
 {
 	width: 20%;
 	float: left;
-	background: #FFBF00;
+	background: #127687;
 	height: 100%;
 	border-radius: 30px;
     -moz-border-radius: 30px;
@@ -163,4 +172,10 @@ h3
 {
  position:absolute;
  left:8px;
+}
+
+#account
+{
+ position:absolute;
+ left: 22px;
 }
