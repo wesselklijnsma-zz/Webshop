@@ -45,7 +45,7 @@ table {
 }
 
  #wrapper {
- position: fixed;
+ position: absolute;
  left: 15%;
  margin: 0 auto;
  width: 760px;
